@@ -43,11 +43,11 @@ Value : true
 ```
 project-root/
 ├── lib/
-│   ├── ec2-scheduler-stack.ts       # CDK スタック定義
+│   ├── ec2-instance-scheduler-stack.ts       # CDK スタック定義
 │   └── lambda/
 │       └── instanceScheduler.ts     # Lambda 関数（TypeScript）
 ├── bin/
-│   └── ec2-scheduler.ts             # CDK エントリポイント
+│   └── ec2-instance-scheduler.ts             # CDK エントリポイント
 ├── package.json
 ├── tsconfig.json
 └── cdk.json
